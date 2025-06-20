@@ -1,7 +1,7 @@
 #include<iostream>
-#include<thread>
 #include<chrono>
 #include<atomic>
+#include<thread>
 using namespace std;
 
 typedef unsigned long long int ulli;
@@ -25,7 +25,7 @@ void evenSum(ulli start, const ulli end, ulli &response){
 }
 
 int main(){
-    ulli start = 1, end = 100000000000000000;
+    ulli start = 1, end = 1000000000000;
     ulli oddresponse = 0, evenresponse = 0;  // Fixing variable name
 
     const auto startTime = chrono::system_clock::now();
