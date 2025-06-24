@@ -25,7 +25,7 @@ void evenSum(ulli start, const ulli end, ulli &response){
 }
 
 int main(){
-    ulli start = 1, end = 1000000000000;
+    ulli start = 1, end = 10000000;
     ulli oddresponse = 0, evenresponse = 0;  // Fixing variable name
 
     const auto startTime = chrono::system_clock::now();
