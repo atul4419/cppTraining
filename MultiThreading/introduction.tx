@@ -1,0 +1,10 @@
+- std::thread basics: create, join, detach
+- Thread lifecycle: start, run, terminate
+- Thread safety and race conditions
+- Passing arguments to threads (by value, reference, std::ref)
+- std::mutex, std::recursive_mutex, std::timed_mutex
+- Locking mechanisms: std::lock_guard, std::unique_lock
+- Deadlock and avoidance techniques
+- std::condition_variable for signaling
+- Atomic operations using std::atomic
+- 
